@@ -1,4 +1,6 @@
 from src.game_logic import NumberGame
+import time
+import sys
 
 def main(): 
     game = NumberGame()
@@ -18,9 +20,11 @@ def main():
 
         # Dramatic pause...
         if status in ('high', 'low'):
-            print("Thinking...")
-            import time
-            time.sleep(0.5)
+            for i in range(4):
+                dots = "." * (i + 1)
+                print(f"\rThinking{dots:<4}", end="", flush=True)
+                time.sleep(1)
+            print()
 
         print(message)
 
