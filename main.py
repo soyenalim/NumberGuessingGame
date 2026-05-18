@@ -19,7 +19,7 @@ def main():
         status, message = game.validate(user_input)
 
         # Dramatic pause...
-        if status in ('high', 'low'):
+        if status not in ('correct', 'invalid'):
             for i in range(4):
                 dots = "." * (i + 1)
                 print(f"\rThinking{dots:<4}", end="", flush=True)
