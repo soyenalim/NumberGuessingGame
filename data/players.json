@@ -1,0 +1,25 @@
+{
+  "players": {
+    "DEV0": {
+      "best_attempts": 10,
+      "best_time": 15,
+      "games_played": 1,
+      "total_guesses": 10,
+      "is_test": true
+    },
+    "DEV1": {
+      "best_attempts": 5,
+      "best_time": 60,
+      "games_played": 1,
+      "total_guesses": 5,
+      "is_test": false
+    },
+    "DEV2": {
+      "best_attempts": 8,
+      "best_time": 30,
+      "games_played": 2,
+      "total_guesses": 16,
+      "is_test": false
+    }
+  }
+}

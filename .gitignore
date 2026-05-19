@@ -1,2 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
 # Local testing scripts
-test_manual.py
+test_*.py
+
+# OS
+.DS_Store
+Thumbs.db
